@@ -25,19 +25,19 @@ Deployment
 To load the workshop definition run:
 
 ```
-kubectl apply -f https://github.com/samarsinghal/lab-application-security-01/master/resources/workshop.yaml
+kubectl apply -f https://github.com/samarsinghal/lab-container-security-01/master/resources/workshop.yaml
 ```
 
 To deploy a sample training portal which hosts the workshop, run:
 
 ```
-kubectl apply -f https://github.com/samarsinghal/lab-application-security-01/master/resources/training-portal.yaml
+kubectl apply -f https://github.com/samarsinghal/lab-container-security-01/master/resources/training-portal.yaml
 ```
 
 Then run:
 
 ```
-kubectl get trainingportal/lab-image-security
+kubectl get trainingportal/lab-image-security-01
 ```
 
 This will output the URL to access the web portal for the training environment.
@@ -50,11 +50,11 @@ Deletion
 To delete the training portal deployment, run:
 
 ```
-kubectl delete -f https://github.com/samarsinghal/lab-application-security-01/master/resources/training-portal.yaml
+kubectl delete -f https://github.com/samarsinghal/lab-container-security-01/master/resources/training-portal.yaml
 ```
 
 When you are finished with the workshop definition, you can delete it by running:
 
 ```
-kubectl delete -f https://github.com/samarsinghal/lab-application-security-01/master/resources/workshop.yaml
+kubectl delete -f https://github.com/samarsinghal/lab-container-security-01/master/resources/workshop.yaml
 ```
