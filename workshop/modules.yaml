@@ -1,0 +1,21 @@
+modules:
+    workshop-overview:
+        name: Workshop Overview
+        exit_sign: Start Workshop
+    container-security/00-pid-namespace:
+        name: PID Namespce
+    container-security/01-building-an-image:
+        name: Building an Image
+    container-security/02-running-as-root:
+        name: Running as Root
+    container-security/03-dedicated-user:
+        name: Dedicated User
+    container-security/04-dedicated-user-kubernetes:
+        name: Dedicated User Kubernetes
+    container-security/05-privileged-privilege-escalation:
+        name: Privileged and PrivilegeEscalation
+    container-security/06-container-capabilities:
+        name: Container Capabilities
+    workshop-summary:
+        name: Workshop Summary
+        exit_sign: Finish Workshop

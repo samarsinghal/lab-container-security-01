@@ -1,0 +1,13 @@
+name: Container Security 01
+
+modules:
+    activate:
+    - workshop-overview
+    - container-security/00-pid-namespace
+    - container-security/01-building-an-image
+    - container-security/02-running-as-root
+    - container-security/03-dedicated-user
+    - container-security/04-dedicated-user-kubernetes
+    - container-security/05-privileged-privilege-escalation
+    - container-security/06-container-capabilities
+    - workshop-summary
